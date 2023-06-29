@@ -16,7 +16,7 @@ Este examen busca evaluar su comprensión básica sobre el control de versiones 
         * **Ejm:** _`examen-git/loria-javier`_
         * No utilice caracteres especiales como acentos o ñ
 3. Moverse a la rama nueva de no haberlo hecho antes (`2pts`).
-4. Modificar el README.me para remplazar el texto `SU NOMBRE AUÍ` por su nombre completo (`3pts`).
+4. Modificar el archivo `README.md` para remplazar el texto `SU NOMBRE AUÍ` por su nombre completo (`3pts`).
 4. Visualizar el archivo `index.html` en el navegador web.
 5. Modifique el archivo `index.html` siguiendo estas instrucciones (`10pts`):
     1. Remplazar el texto `SU NOMBRE AQUÍ` por su nombre completo.
