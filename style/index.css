@@ -1,0 +1,104 @@
+*{
+  box-sizing: border-box;
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  margin: 0px;
+  padding: 0px;
+}
+
+html{
+  color: black;
+  font-size: 20px;
+  font-family: 'quicksand', sans-serif;
+  font-weight: normal;
+}
+
+html, body{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background-color: #13031d;
+  display: flex;
+  flex-direction: row;
+}
+
+body > header{
+  border-radius: 10px;
+  background-color: white;
+  margin: auto;
+  overflow: hidden;
+}
+
+body > header > .title{
+  background-color: #9c0a2e;
+  color: white;
+  font-family: 'pacifico', cursive;
+  font-size: 40px;
+  padding: 5px 20px;
+  text-align: center;
+}
+
+body > header > .body{
+  padding: 5px;
+}
+
+body > header > .body > .name{
+  font-size: 25px;
+  margin: auto;
+  text-align: center;
+}
+
+body > header > .body > .name::before{
+  content: '- [ ';
+  color: #9c0a2e;
+  font-family: 'pacifico';
+}
+
+body > header > .body > .name::after{
+  content: ' ] -';
+  color: #9c0a2e;
+  font-family: 'pacifico';
+}
+
+body > header > .body > .icon{
+  border-top: 25px solid #9c0a2e;
+  border-right: 25px solid #b6264a;
+  border-bottom: 25px solid #cc4164;
+  border-left: 25px solid #dd5a7a;
+  border-radius: 25px;
+  height: 50px;
+  margin: 10px auto;
+  animation: 0.5s ease-in-out alternate infinite icon-animation;
+  width: 50px;
+}
+
+@keyframes icon-animation{
+  from{
+    transform: rotate( 0deg );
+  }
+  to{
+    transform: rotate( 180deg );
+  }
+}
+
+body > header > .body > .date{
+  text-align: center;
+}
+
+body > header > .body > .date > .title{
+  background-color: #9c0a2e;
+  border-radius: 5px;
+  color: white;
+  font-family: 'pacifico';
+  padding: 0px 4px;
+}
+
+body > header > .body > .date > .datepart + .datepart::before{
+  content: '/ ';
+  color: #9c0a2e;
+  font-family: 'pacifico';
+}
