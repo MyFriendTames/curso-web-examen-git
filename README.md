@@ -26,5 +26,7 @@ Este examen busca evaluar su comprensión básica sobre el control de versiones 
     1. Agregue los cambios a un commit, cuyo mensaje siga el siguiente formato (`5pts`):
         * **`examen-git/2023/<inicial-apellido>-<nombre>`**
             * **Ejm:** _`examen-git/2023/l-javier`_
-    2. Suba los cambios de su rama al repositorio remoto (`10pts`)
+    2. En el examen dentro de learning4me.us agregue un comentario con el correo de GitHub para otorgarle permisos del repositorio.
+    3. Cuando se le otorguen los permisos deberá recibir un correo electrónico de invitación, una vez aceptada podrá proseguir con el siguiente paso.
+    4. Suba los cambios de su rama al repositorio remoto (`10pts`)
         * **Nota:** si el ítem ***#8*** no se completa, no será posible revisar el examen.
