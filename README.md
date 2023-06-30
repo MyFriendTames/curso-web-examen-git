@@ -1,6 +1,6 @@
 # Examen sobre Control de Versiones
 
-> _Nombre de estudiante:_ SU NOMBRE AQUÍ
+> _Nombre de estudiante:_ Jefferson Durán
 
 ```
 Este examen busca evaluar su comprensión básica sobre el control de versiones utilizando Git/GitHub.
